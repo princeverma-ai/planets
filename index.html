@@ -42,41 +42,54 @@
       <div id="upside-video">
         <h1>Solar System</h1>
       </div>
-    </div>
-
-    <div id="navbar">
-      <div id="nav1">
-        <div id="nav1-in1">
-          <img class="nav1-img1" src="https://cdn-icons-png.flaticon.com/512/181/181755.png" alt="NONE">
+      <div id="navbar">
+        <div id="nav1">
+          <div id="nav1-in1">
+            <img class="nav1-img1" src="logo.png" alt="NONE">
+          </div>
+          <div id="nav1-in2">
+            <h1 class="nav1-planet">Planets</h1>
+          </div>
         </div>
-        <div id="nav1-in2">
-          <h1 class="nav1-planet">Planet</h1>
+        <div id="nav2">
+          <ul class="inside-nav2">
+            <li class="nav-items about-it"><a href="#">Planets</a></li>
+            <div class="about-planets">
+              <h3>About Planets</h3>
+              <hr>
+              <h2 id="planets-h2">Planets</h2>
+              <ul class="ab-span" style="list-style-type: circle;">
+                <li>Mercury</li>
+                <li>Venus</li>
+                <li>Earth</li>
+                <li>Mars</li>
+                <li>Jupiter</li>
+                <li>Saturn</li>
+                <li>Neptune</li>
+                <li>Uranus</li>
+              </ul>
+            </div>
+            <li class="nav-items"><a href="#" id="second-li">Solar System</a></li>
+            <li class="nav-items"><a href="#">Asteroids</a></li>
+            <li class="nav-items"><a href="#">Meteors</a></li>
+            <li class="nav-items"><a href="#">More</a></li>
+          </ul>
+        </div>
+        <div id="nav3">
+          <input type="button" value="About">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+            viewBox="0 0 16 16">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+          </svg>
         </div>
       </div>
-      <div id="nav2">
-        <ul id="inside-nav2">
-          <li class="nav-items"><a href="#">Planets</a></li>
-          <li class="nav-items"><a href="#">Solar System</a></li>
-          <li class="nav-items"><a href="#">Asteroids</a></li>
-          <li class="nav-items"><a href="#">Meteors</a></li>
-          <li class="nav-items"><a href="#">More</a></li>
-        </ul>
-      </div>
-      <div id="nav3">
-        <input type="button" value="About">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
-          viewBox="0 0 16 16">
-          <path
-            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-        </svg>
-      </div>
-    </div>
     </div>
   </header>
   <main>
     <div id="main-content">
       <div id="topic">
-        <h2>How Life Begins</h2>
+        <h2>How Life Began..</h2>
       </div>
 
       <div class="inside-main-cnt">
@@ -98,10 +111,35 @@
           metabolism first hypothesis.</p>
       </div>
     </div>
+
+    <!-- Work by Senior Web developer  ------------------------------------------------->
+    <section id="planets-section">
+      <ul id="planets-list">
+        <li class="planet-li">
+          <!-- List item--------------->
+
+          <div class="img-container">
+            <div class="planet-img"></div>
+          </div>
+
+          <div class="card-container">
+            <div class="card">
+              <div class="card-content">
+                <h2 class="card-head">The Earth</h2>
+                <p class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+                  quibusdam molestiae. Nemo perferendis laudantium explicabo?
+                </p>
+                <a href="#" class="button">Learn More</a>
+              </div>
+            </div>
+          </div>  <!--card container-->
+
+        </li> <!-- List item--------------->
+
+      </ul>
+    </section>
   </main>
-  <footer>
-    <!-- Pending -->
-  </footer>
 </body>
 
 </html>
