@@ -2,144 +2,469 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Planets</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planets</title>
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800;900&display=swap"
-    rel="stylesheet">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800;900&display=swap"
+        rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
 
-  <!-- Fonts Ended -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="responsive.css">
+    <!-- Fonts Ended -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <link rel="shortcut icon" href="rocket.png" type="image/x-icon" />
+    <!--added by -p-->
 </head>
 
 <body>
-  <header>
-    <div id="evideo">
-      <video id="video" src="space-vid.mp4" loop autoplay muted></video>
-      <div id="upside-video">
-        <h1>Solar System</h1>
-      </div>
-      <div id="navbar">
-        <div id="nav1">
-          <div id="nav1-in1">
-            <img class="nav1-img1" src="logo.png" alt="NONE">
-          </div>
-          <div id="nav1-in2">
-            <h1 class="nav1-planet">Planets</h1>
-          </div>
-        </div>
-        <div id="nav2">
-          <ul class="inside-nav2">
-            <li class="nav-items about-it"><a href="#">Planets</a></li>
-            <div class="about-planets">
-              <h3>About Planets</h3>
-              <hr>
-              <h2 id="planets-h2">Planets</h2>
-              <ul class="ab-span" style="list-style-type: circle;">
-                <li>Mercury</li>
-                <li>Venus</li>
-                <li>Earth</li>
-                <li>Mars</li>
-                <li>Jupiter</li>
-                <li>Saturn</li>
-                <li>Neptune</li>
-                <li>Uranus</li>
-              </ul>
+    <header>
+        <div id="evideo">
+            <video id="video" src="space-vid.mp4" loop autoplay muted></video>
+            <div id="upside-video">
+                <h1>Solar System</h1>
             </div>
-            <li class="nav-items"><a href="#" id="second-li">Solar System</a></li>
-            <li class="nav-items"><a href="#">Asteroids</a></li>
-            <li class="nav-items"><a href="#">Meteors</a></li>
-            <li class="nav-items"><a href="#">More</a></li>
-          </ul>
-        </div>
-        <div id="nav3">
-          <input type="button" value="About">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
-            viewBox="0 0 16 16">
-            <path
-              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-          </svg>
-        </div>
-      </div>
-    </div>
-  </header>
-  <main>
-    <div id="main-content">
-      <div id="topic">
-        <h2>How Life Began..</h2>
-      </div>
-
-      <div class="inside-main-cnt">
-        <img src="https://wp.biologos.org/wp-content/uploads/2019/01/microscope-768x512.jpg" alt="n">
-        <h4>First Life on Earth</h4>
-        <p>All life on Earth contains carbon as an essential elemental building block</p>
-      </div>
-
-      <div class="inside-main-cnt">
-        <img src="https://wp.biologos.org/wp-content/uploads/2019/01/microscope-768x512.jpg" alt="n">
-        <h4>Miller-Urey Experiment</h4>
-        <p>Charles Darwin is often credited for the original “warm little pond” hypothesis</p>
-      </div>
-
-      <div class="inside-main-cnt">
-        <img src="https://wp.biologos.org/wp-content/uploads/2019/01/microscope-768x512.jpg" alt="n">
-        <h4>Life Came Together</h4>
-        <p>Life originated fall in two main camps: the gene first hypothesis and the
-          metabolism first hypothesis.</p>
-      </div>
-    </div>
-
-    <!-- Work by Senior Web developer  ------------------------------------------------->
-    <section id="planets-section">
-      <ul id="planets-list">
-        <li class="planet-li">
-          <!-- List item--------------->
-
-          <div class="img-container">
-            <div class="planet-img"></div>
-          </div>
-
-          <div class="card-container">
-            <div class="card">
-              <div class="card-content">
-                <h2 class="card-head">The Earth</h2>
-                <p class="card-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-                  quibusdam molestiae. Nemo perferendis laudantium explicabo?
-                </p>
-                <a href="#" class="button">Learn More</a>
-              </div>
+            <div id="navbar">
+                <div id="nav1">
+                    <div id="nav1-in1">
+                        <img class="nav1-img1" src="logo.png" alt="NONE">
+                    </div>
+                    <div id="nav1-in2">
+                        <h1 class="nav1-planet">Planets</h1>
+                    </div>
+                </div>
+                <div id="nav2">
+                    <ul class="inside-nav2">
+                        <li class="nav-items about-it"><a href="#">Planets</a></li>
+                        <div class="about-planets">
+                            <h3>About Planets</h3>
+                            <hr>
+                            <h2 id="planets-h2">Planets</h2>
+                            <ul class="ab-span" style="list-style-type: circle;">
+                                <li>Mercury</li>
+                                <li>Venus</li>
+                                <li>Earth</li>
+                                <li>Mars</li>
+                                <li>Jupiter</li>
+                                <li>Saturn</li>
+                                <li>Neptune</li>
+                                <li>Uranus</li>
+                            </ul>
+                        </div>
+                        <li class="nav-items"><a href="#" id="second-li">Solar System</a></li>
+                        <li class="nav-items"><a href="#">Asteroids</a></li>
+                        <li class="nav-items"><a href="#">Meteors</a></li>
+                        <li class="nav-items"><a href="#">More</a></li>
+                    </ul>
+                </div>
+                <div id="nav3">
+                    <input type="button" value="About">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                </div>
             </div>
-          </div>  <!--card container-->
+        </div>
+    </header>
+    <main>
+        <div id="main-content">
+            <div id="topic">
+                <h2>How Life Began..</h2>
+            </div>
 
-        </li> <!-- List item--------------->
+            <div class="inside-main-cnt">
+                <img src="https://wp.biologos.org/wp-content/uploads/2019/01/microscope-768x512.jpg" alt="n">
+                <h4>First Life on Earth</h4>
+                <p>All life on Earth contains carbon as an essential elemental building block</p>
+            </div>
 
-      </ul>
-    </section>
-  </main>
+            <div class="inside-main-cnt">
+                <img src="https://wp.biologos.org/wp-content/uploads/2019/01/microscope-768x512.jpg" alt="n">
+                <h4>Miller-Urey Experiment</h4>
+                <p>Charles Darwin is often credited for the original “warm little pond” hypothesis</p>
+            </div>
+
+            <div class="inside-main-cnt">
+                <img src="https://wp.biologos.org/wp-content/uploads/2019/01/microscope-768x512.jpg" alt="n">
+                <h4>Life Came Together</h4>
+                <p>Life originated fall in two main camps: the gene first hypothesis and the metabolism first
+                    hypothesis.</p>
+            </div>
+        </div>
+
+        <!-- Work by Senior Web developer  ------------------------------------------------->
+        <section id="planets-section">
+            <ul id="planets-list">
+                <li class="planet-li">
+                    <!-- List item--------------->
+
+                    <div class="img-container">
+                        <div class="planet-img"></div>
+                        <div class="parent-img"></div>
+
+                    </div>
+
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-content">
+                                <h2 class="card-head"><svg class="svg-head" viewBox="0 0 160 160" width="100"
+                                        height="100">
+                                        <circle cx="80" cy="80" r="50" fill="#757575" />
+                                        <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80)">
+                                            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z"
+                                                fill="#fff">
+                                                <animateTransform attributeName="transform" type="rotate" from="360 0 0"
+                                                    to="0 0 0" dur="1s" repeatCount="indefinite" />
+                                            </path>
+                                        </g>
+                                        <path d="M 50,0 A 50,50 0 0,0 -50,0Z"
+                                            transform="matrix(0.866, -0.5, 0.5, 0.866, 80, 80)" fill="#757575" />
+                                    </svg>The Mercury</h2>
+                                <p class="card-body">
+                                    It’s the nearest planet to the sun and is also the smallest planet in the solar
+                                    system and takes around 88 days to complete one revolution (to be exact 88.97 days)
+                                    which is the smallest time duration.
+
+                                    Its size is slightly larger than the size of the moon of earth. It does not have
+                                    many moons and climatic conditions that are not favorable for any form of life as it
+                                    is too near to the Sun. Its surface temperature ranges from 100 K at night to 700 K
+                                    during the day (this high diurnal range of temperature is there because the planet
+                                    has no atmosphere to retain and this is the highest among all planets).
+                                </p>
+                                <a href="#" class="button">Learn More <span class="rarr">&rarr;</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card container-->
+
+                </li>
+                <!-- List item--------------->
+                <!------------------------------------------------------------------->
+                <li class="planet-li">
+                    <!-- List item--------------->
+
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-content">
+                                <h2 class="card-head"><svg class="svg-head" viewBox="0 0 160 160" width="100"
+                                        height="100">
+                                        <circle cx="80" cy="80" r="50" fill="#757575" />
+                                        <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80)">
+                                            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z"
+                                                fill="#fff">
+                                                <animateTransform attributeName="transform" type="rotate" from="360 0 0"
+                                                    to="0 0 0" dur="1s" repeatCount="indefinite" />
+                                            </path>
+                                        </g>
+                                        <path d="M 50,0 A 50,50 0 0,0 -50,0Z"
+                                            transform="matrix(0.866, -0.5, 0.5, 0.866, 80, 80)" fill="#757575" />
+                                    </svg>The Venus</h2>
+                                <p class="card-body">
+                                    When observed from the Earth, it’s the second brightest (after the observed moon)
+                                    and takes 224.7 Earth days to complete one revolution and 243 Earth days for
+                                    rotation on its axis (it takes the maximum time period among all planets to complete
+                                    one rotation). It rotates in the opposite direction to all planets except Uranus
+                                    (from West to East).
+                                </p>
+                                <a href="#" class="button">Learn More <span class="rarr">&rarr;</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card container-->
+
+                    <div class="img-container">
+                        <div class="planet-img"></div>
+                        <div class="parent-img"></div>
+
+                    </div>
+
+
+
+                </li>
+                <!-- List item--------------->
+                <!------------------------------------------------------------------->
+
+                <li class="planet-li">
+                    <!-- List item--------------->
+
+                    <div class="img-container">
+                        <div class="planet-img"></div>
+                        <div class="parent-img"></div>
+
+                    </div>
+
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-content">
+                                <h2 class="card-head"><svg class="svg-head" viewBox="0 0 160 160" width="100"
+                                        height="100">
+                                        <circle cx="80" cy="80" r="50" fill="#757575" />
+                                        <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80)">
+                                            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z"
+                                                fill="#fff">
+                                                <animateTransform attributeName="transform" type="rotate" from="360 0 0"
+                                                    to="0 0 0" dur="1s" repeatCount="indefinite" />
+                                            </path>
+                                        </g>
+                                        <path d="M 50,0 A 50,50 0 0,0 -50,0Z"
+                                            transform="matrix(0.866, -0.5, 0.5, 0.866, 80, 80)" fill="#757575" />
+                                    </svg>The Earth</h2>
+                                <p class="card-body">
+                                    It’s the third planet from the Sun and is the only known planet to harbor life. The
+                                    Earth age is around 4.5 billion years old. It takes 365.264 days to complete one
+                                    revolution around the Sun and 24 hours to complete one rotation on its axis (and
+                                    after
+                                    every four complete revolutions 4years it takes a day longer 366 days to complete a
+                                    revolution). It is covered by 71% of water and its crust is divided into different
+                                    tectonic plates (lithosphere). Earth’s innermost
+                                    part remains active and its inner core is solid while the outer core is liquid which
+                                    generates Earth's magnetic field.
+                                </p>
+                                <a href="#" class="button">Learn More <span class="rarr">&rarr;</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card container-->
+
+                </li>
+                <!-- List item--------------->
+                <!------------------------------------------------------------------->
+                <li class="planet-li">
+                    <!-- List item--------------->
+
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-content">
+                                <h2 class="card-head"><svg class="svg-head" viewBox="0 0 160 160" width="100"
+                                        height="100">
+                                        <circle cx="80" cy="80" r="50" fill="#757575" />
+                                        <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80)">
+                                            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z"
+                                                fill="#fff">
+                                                <animateTransform attributeName="transform" type="rotate" from="360 0 0"
+                                                    to="0 0 0" dur="1s" repeatCount="indefinite" />
+                                            </path>
+                                        </g>
+                                        <path d="M 50,0 A 50,50 0 0,0 -50,0Z"
+                                            transform="matrix(0.866, -0.5, 0.5, 0.866, 80, 80)" fill="#757575" />
+                                    </svg>The Mars</h2>
+                                <p class="card-body">
+                                    It’s the fourth planet from the sun and also the second-smallest in the solar
+                                    system. Its red color also makes it known as the red planet (presence of iron
+                                    oxide). It has two moons - Phobos and Deimos. Its gravity is 38% of the Earth's
+                                    gravity and takes 687 Earth's day and one full Mars year (16,500 hours).
+                                </p>
+                                <a href="#" class="button">Learn More <span class="rarr">&rarr;</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card container-->
+
+                    <div class="img-container">
+                        <div class="planet-img"></div>
+                        <div class="parent-img"></div>
+
+                    </div>
+
+
+
+                </li>
+                <!-- List item--------------->
+                <!------------------------------------------------------------------->
+                <li class="planet-li">
+                    <!-- List item--------------->
+
+                    <div class="img-container">
+                        <div class="planet-img"></div>
+                        <div class="parent-img"></div>
+
+                    </div>
+
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-content">
+                                <h2 class="card-head"><svg class="svg-head" viewBox="0 0 160 160" width="100"
+                                        height="100">
+                                        <circle cx="80" cy="80" r="50" fill="#757575" />
+                                        <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80)">
+                                            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z"
+                                                fill="#fff">
+                                                <animateTransform attributeName="transform" type="rotate" from="360 0 0"
+                                                    to="0 0 0" dur="1s" repeatCount="indefinite" />
+                                            </path>
+                                        </g>
+                                        <path d="M 50,0 A 50,50 0 0,0 -50,0Z"
+                                            transform="matrix(0.866, -0.5, 0.5, 0.866, 80, 80)" fill="#757575" />
+                                    </svg>The Jupiter</h2>
+                                <p class="card-body">
+                                    It’s the fifth planet from the Sun and the largest planet among all. It’s also one
+                                    of the brightest things that can be seen in the sky with the naked eye.
+
+                                    Jupiter is a giant ball of gases with one-thousandth mass of the Sun and lacks a
+                                    well-defined surface.
+                                </p>
+                                <a href="#" class="button">Learn More <span class="rarr">&rarr;</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card container-->
+
+                </li>
+                <!-- List item--------------->
+                <!------------------------------------------------------------------->
+                <li class="planet-li">
+                    <!-- List item--------------->
+
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-content">
+                                <h2 class="card-head"><svg class="svg-head" viewBox="0 0 160 160" width="100"
+                                        height="100">
+                                        <circle cx="80" cy="80" r="50" fill="#757575" />
+                                        <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80)">
+                                            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z"
+                                                fill="#fff">
+                                                <animateTransform attributeName="transform" type="rotate" from="360 0 0"
+                                                    to="0 0 0" dur="1s" repeatCount="indefinite" />
+                                            </path>
+                                        </g>
+                                        <path d="M 50,0 A 50,50 0 0,0 -50,0Z"
+                                            transform="matrix(0.866, -0.5, 0.5, 0.866, 80, 80)" fill="#757575" />
+                                    </svg>The Saturn</h2>
+                                <p class="card-body">
+                                    It’s the sixth planet from the Sun and the second-largest planet among the solar
+                                    system. It’s a giant gas planet with an average radius which is nine times the
+                                    radius of the earth The inner core is made of iron and nickel. An electric current
+                                    within the hydrogen layer gives rise to the magnetic field of the Saturn which is a
+                                    little less than the earth's magnetic field.
+                                </p>
+                                <a href="#" class="button">Learn More <span class="rarr">&rarr;</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card container-->
+
+                    <div class="img-container">
+                        <div class="planet-img"></div>
+                        <div class="parent-img"></div>
+
+                    </div>
+
+
+
+                </li>
+                <!-- List item--------------->
+                <!------------------------------------------------------------------->
+                <li class="planet-li">
+                    <!-- List item--------------->
+
+                    <div class="img-container">
+                        <div class="planet-img"></div>
+                        <div class="parent-img"></div>
+
+                    </div>
+
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-content">
+                                <h2 class="card-head"><svg class="svg-head" viewBox="0 0 160 160" width="100"
+                                        height="100">
+                                        <circle cx="80" cy="80" r="50" fill="#757575" />
+                                        <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80)">
+                                            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z"
+                                                fill="#fff">
+                                                <animateTransform attributeName="transform" type="rotate" from="360 0 0"
+                                                    to="0 0 0" dur="1s" repeatCount="indefinite" />
+                                            </path>
+                                        </g>
+                                        <path d="M 50,0 A 50,50 0 0,0 -50,0Z"
+                                            transform="matrix(0.866, -0.5, 0.5, 0.866, 80, 80)" fill="#757575" />
+                                    </svg>The Uranus</h2>
+                                <p class="card-body">
+                                    It’s the seventh planet from the Sun and has the fourth-largest planet by mass and
+                                    third-largest by radius. It's also referred to as ice giants and its primary
+                                    component is similar to Jupiter and Saturn but it also has more ices such as
+                                    methane, water, and ammonia and also traces of hydrocarbons. It rotates in the
+                                    opposite direction from all the planets except venus( it rotates from west to east).
+                                </p>
+                                <a href="#" class="button">Learn More <span class="rarr">&rarr;</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card container-->
+
+                </li>
+                <!-- List item--------------->
+                <!------------------------------------------------------------------->
+                <li class="planet-li">
+                    <!-- List item--------------->
+
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="card-content">
+                                <h2 class="card-head"><svg class="svg-head" viewBox="0 0 160 160" width="100"
+                                        height="100">
+                                        <circle cx="80" cy="80" r="50" fill="#757575" />
+                                        <g transform=" matrix(0.866, -0.5, 0.25, 0.433, 80, 80)">
+                                            <path d="M 0,70 A 65,70 0 0,0 65,0 5,5 0 0,1 75,0 75,70 0 0,1 0,70Z"
+                                                fill="#fff">
+                                                <animateTransform attributeName="transform" type="rotate" from="360 0 0"
+                                                    to="0 0 0" dur="1s" repeatCount="indefinite" />
+                                            </path>
+                                        </g>
+                                        <path d="M 50,0 A 50,50 0 0,0 -50,0Z"
+                                            transform="matrix(0.866, -0.5, 0.5, 0.866, 80, 80)" fill="#757575" />
+                                    </svg>The Neptune</h2>
+                                <p class="card-body">
+                                    It’s the eighth planet from the Sun. It’s the fourth-largest planet by diameter. The
+                                    third most massive planet and is the densest giant planet - it’s slightly larger
+                                    than Uranus and Neptune. It orbits the Sun every 164.8 years and is denser than
+                                    Uranus and physically smaller than Uranus.
+                                </p>
+                                <a href="#" class="button">Learn More <span class="rarr">&rarr;</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card container-->
+
+                    <div class="img-container">
+                        <div class="planet-img"></div>
+                        <div class="parent-img"></div>
+
+                    </div>
+
+
+
+                </li>
+                <!-- List item--------------->
+                <!------------------------------------------------------------------->
+            </ul>
+            <!-- list-->
+        </section>
+    </main>
 </body>
 
 </html>

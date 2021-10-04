@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -6,32 +6,40 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: black;
     color: white;
 }
+
+
 /**  scroll bar -p**/
-body::-webkit-scrollbar{
+
+body::-webkit-scrollbar {
     display: none;
-    
 }
-main{
+
+main {
     font-family: sans-serif;
     line-height: 1.6;
-
 }
+
+
 /**  scroll bar -p**/
 
-img:hover , svg:hover{
+img:hover,
+svg:hover {
     cursor: pointer;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
-#navbar{
+
+#navbar {
     background-color: #00275d91;
     /* do not increase width please */
-    width: 100vw;  /* Sorry i have to ,   to make the site more immersive and hiding scroll bar*/
+    width: 100vw;
+    /* Sorry i have to ,   to make the site more immersive and hiding scroll bar*/
     height: 8.8vh;
     display: grid;
     grid-template-columns: 0.8fr 1.7fr 0.8fr;
@@ -40,33 +48,39 @@ body{
     column-gap: 6%;
     list-style: none;
 }
-#evideo{
+
+#evideo {
     /* changed by -p*/
     height: 110vh;
     /* width: 99.8vw; */
     position: relative;
     top: 0px;
 }
+
+
 /* changes by -p****************************************/
 
-#evideo::before{
+#evideo::before {
     content: "";
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 150px;
-    background: linear-gradient(to top,black,transparent);
+    background: linear-gradient(to top, black, transparent);
     z-index: 1000;
 }
+
+
 /* changes by -p****************************************/
 
-#video{
+#video {
     height: 100%;
     /* width changed -p*/
-    width: 100%;  
+    width: 100%;
     object-fit: cover;
 }
-#upside-video{
+
+#upside-video {
     position: absolute;
     z-index: 9000;
     top: 35%;
@@ -79,8 +93,9 @@ body{
     /* font-size: 450%; */
     font-size: 3.4vw;
 }
-#upside-video h1{
-    font-family: 'Lemon', cursive;
+
+#upside-video h1 {
+    font-family: "Lemon", cursive;
     position: relative;
     font-weight: 100;
     opacity: 80%;
@@ -89,14 +104,16 @@ body{
     display: flex;
     flex-shrink: 40;
 }
-#nav1{
+
+#nav1 {
     min-width: 210px;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     justify-content: center;
     align-items: center;
 }
-.nav1-img1{
+
+.nav1-img1 {
     position: relative;
     left: 41px;
     top: 0px;
@@ -106,69 +123,84 @@ body{
     /* border-radius: 40px; */
     /* box-shadow: 0px 0px 9px 2px white; */
 }
-.nav1-planet{
+
+.nav1-planet {
     color: white;
     /* text-shadow: 2px 2px aqua; */
     text-shadow: 6px 5px #0b090a;
     font-size: 32px;
     letter-spacing: 5px;
-    font-family: 'Lemon', cursive;
+    font-family: "Lemon", cursive;
 }
-#nav1-in2{
+
+#nav1-in2 {
     min-width: 200px;
     margin-left: 10px;
 }
-#nav1-in1{
+
+#nav1-in1 {
     min-width: 90px;
     margin-left: 5.5px;
 }
+
+
 /* Main Nav Starts Here ...........................................................*/
-#nav2{
+
+#nav2 {
     height: 100%;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
-.inside-nav2{
+
+.inside-nav2 {
     display: Grid;
     /* changed by -p*/
-    grid-template-columns: repeat(5 , 7.5rem);
+    grid-template-columns: repeat(5, 7.5rem);
     justify-items: center;
     align-items: center;
     height: 100%;
     /* position: relative; */
     margin-left: 5%;
 }
+
+
 /* Changes by -p************************************************/
-#second-li{
+
+#second-li {
     font-size: 1.2em;
-    
 }
-#second-li:hover{
+
+#second-li:hover {
     color: rgb(0, 252, 168);
     font-size: 1.3em;
 }
 
+
 /* Changes by -p************************************************/
 
-.inside-nav2 li a{
+.inside-nav2 li a {
     text-decoration: none;
     font-size: 1.2em;
     color: white;
     letter-spacing: -0.5px;
     transition: font-size 300ms;
 }
-.inside-nav2 li a:hover{
+
+.inside-nav2 li a:hover {
     color: rgb(0, 252, 168);
     font-size: 22px;
 }
+
+
 /* Main nav Ends Here................................................. */
 
-#nav3{
+#nav3 {
     display: grid;
     grid-template-columns: 1fr 0.3fr;
     justify-content: space-evenly;
     align-items: center;
 }
-#nav3 input{
+
+#nav3 input {
     background-color: #00275d91;
     color: white;
     border: 1px solid white;
@@ -178,31 +210,39 @@ body{
     border-radius: 2px;
     height: 73%;
 }
-#nav3 input:hover{
+
+#nav3 input:hover {
     box-shadow: 3px 2px 5px 1px white;
     border-top: none;
     border-left: none;
 }
-#nav3 svg{
+
+#nav3 svg {
     width: 36px;
     height: 33px;
-    transition: 0.5s , background-color 1s;
+    transition: 0.5s, background-color 1s;
     fill: white;
 }
-#nav3 svg:hover{
+
+#nav3 svg:hover {
     transform: scale(1.2);
 }
+
+
 /* Main Starts Here/............................................... */
 
-#main-content{
+#main-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.4fr 1fr;
     justify-content: center;
     width: 85vw;
-    margin: 0 auto;   /* changed by -p*/
-    margin-top: 4em;  /* changed by -p*/
-    margin-bottom: 3.5em;  /* changed by -p*/
+    margin: 0 auto;
+    /* changed by -p*/
+    margin-top: 4em;
+    /* changed by -p*/
+    margin-bottom: 3.5em;
+    /* changed by -p*/
     column-gap: 68px;
     box-shadow: 0px 0px 30px 12px rgb(128 128 128 / 43%);
     padding: 0em 1.5em;
@@ -212,44 +252,51 @@ body{
     background-color: rgb(15, 14, 14);
 }
 
-#topic{
+#topic {
     grid-column: 1 / -1;
     text-align: center;
 }
-#topic h2{
+
+#topic h2 {
     font-size: 3rem;
     padding: 28px;
     padding-bottom: 50px;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     font-weight: 800;
 }
-.inside-main-cnt{
+
+.inside-main-cnt {
     display: grid;
     grid-template-rows: 1fr 0.5fr 0.6fr;
     justify-items: center;
 }
-.inside-main-cnt img{
+
+.inside-main-cnt img {
     /* width and height is ok in px not in other.. */
     width: 150px;
     height: 140px;
     border-radius: 50%;
 }
-.inside-main-cnt h4{
+
+.inside-main-cnt h4 {
     text-align: center;
     font-size: 1.4rem;
     margin-top: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
 }
-.inside-main-cnt p{
+
+.inside-main-cnt p {
     font-size: 1.1rem;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 500;
 }
+
+
 /* Main Ends Here/............................................... */
 
-.about-it:hover ~ .about-planets{
+.about-it:hover~.about-planets {
     display: grid;
     grid-template-rows: 0.1fr 0.1fr 0.1fr 1fr;
     align-items: center;
@@ -257,15 +304,15 @@ body{
 
 
 /* about planet on hover starts here */
-.about-planets{
+
+.about-planets {
     background-color: rgba(255, 255, 255, 0.87);
     color: black;
     position: absolute;
     top: 68px;
     left: 29vw;
     z-index: 1000000;
-
-   /* changes by -p*/
+    /* changes by -p*/
     width: 11vw;
     height: 25rem;
     /* padding-left: 12px; */
@@ -273,32 +320,38 @@ body{
     text-align: center;
     border-radius: 10px;
 }
+
+
 /* changes by -p************************************************************************/
-#planets-h2{
+
+#planets-h2 {
     font-family: sans-serif;
     font-weight: bolder;
     font-size: 1.5em;
     position: relative;
     text-shadow: 1px 1px rgba(255, 255, 255, 0.753);
 }
-#planets-h2::after{
+
+#planets-h2::after {
     content: "";
     position: absolute;
     left: 25%;
     top: 100%;
     width: 50%;
-    height: 1px ;
+    height: 1px;
     background-color: black;
 }
+
+
 /* changes by -p************************************************************************/
 
-
-.about-planets h3{
+.about-planets h3 {
     margin-top: 20px;
 }
-.about-planets hr{
+
+.about-planets hr {
     width: 80%;
-   /* changes by -p*/
+    /* changes by -p*/
     margin: 0 auto;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -307,80 +360,91 @@ body{
     border-right: none;
     border-left: none;
 }
-.ab-span{
+
+.ab-span {
     align-self: flex-start;
     display: flex;
     flex-direction: column;
-    grid-template-columns: repeat(2 , 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
-.ab-span li{
+
+.ab-span li {
     display: inline-block;
     font-size: 20px;
     margin: 9px 0px;
 }
+
+
 /* about planet on hover ends here */
 
 
 /*Content by Senior Web developer starts here-------------------------------------*/
 
-#planets-section{
+#planets-section {
     width: 100%;
     /* height: 100rem; */
     /* background-color: yellow; */
     /* border-bottom: 20px solid red; */
 }
-#planets-list{
+
+#planets-list {
     width: 100%;
     /* position: relative; */
 }
+
 .planet-li:nth-of-type(1):before {
     content: "";
     position: absolute;
     top: 0;
     width: 100%;
     height: 150px;
-    background: linear-gradient(to bottom,black,transparent);
+    background: linear-gradient(to bottom, black, transparent);
     z-index: 1000;
 }
-.planet-li:nth-of-type(1){
+
+.planet-li:nth-of-type(1) {
     padding-top: 2em;
     height: 110vh;
 }
-.planet-li::after{
+
+.planet-li::after {
     content: "";
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 50px;
-    background: linear-gradient(to top,#010508,transparent);
+    background: linear-gradient(to top, #010508, transparent);
     z-index: 1000;
 }
-.planet-li::before{
+
+.planet-li::before {
     content: "";
     position: absolute;
     top: 0;
     width: 100%;
     height: 50px;
-    background: linear-gradient(to bottom,#010508,transparent);
+    background: linear-gradient(to bottom, #010508, transparent);
     z-index: 1000;
 }
-.planet-li{
+
+.planet-li {
     width: 100%;
-    height:100vh;
+    height: 100vh;
     /* background-color: royalblue; */
     /* background-image: url('back1.jpg'); */
     /* background-image: url('back2.jpg'); */
-    background-image: url('back3.jpg');
+    background-image: url("back3.jpg");
     background-size: cover;
-    background-position:center;
+    background-position: center;
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
 }
-.img-container,.card-container{
+
+.img-container,
+.card-container {
     width: 50%;
     height: 40rem;
     /* background-color: wheat; */
@@ -388,76 +452,253 @@ body{
     justify-content: center;
     align-items: center;
 }
-.card-container{
+
+.card-container {
     justify-content: flex-start;
+    align-items: center;
+}
+ul  .planet-li:nth-of-type(2n) .card-container{
+       justify-content: flex-end;
 }
 
-.planet-img{
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/22/Earth_Western_Hemisphere_transparent_background.png') ;
+.planet-img+.parent-img {
+    width: 25rem;
+    height: 25em;
+    /* background-color: violet; */
+    border-radius: 50%;
+    position: absolute;
+    transition: backdrop-filter 500ms;
+    z-index: 2;
+}
+
+.planet-img {
+    /* background-color: turquoise; */
+    /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/22/Earth_Western_Hemisphere_transparent_background.png"); */
     background-size: cover;
     background-position: center;
     width: 30rem;
     height: 30rem;
+    z-index: 3;
+    border-radius: 50%;
+    /* transition: transform 500ms; */
+    animation: planet-anim 20s cubic-bezier(0.22, 0.21, 0.6, 0.65) infinite;
+    /* planet-img-anim 5s cubic-bezier(0.22, 0.21, 0.6, 0.65) infinite alternate             */
 }
-.card{
+ul  .planet-li:nth-child(1) .img-container .planet-img{
+    background-image: url('https://www.pngall.com/wp-content/uploads/2/Mercury-Planet-Transparent.png');
+}
+ul  .planet-li:nth-child(2) .img-container .planet-img{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Venus_globe_-_transparent_background.png/1024px-Venus_globe_-_transparent_background.png');
+}
+ul  .planet-li:nth-child(3) .img-container .planet-img{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/22/Earth_Western_Hemisphere_transparent_background.png');
+}
+ul  .planet-li:nth-child(4) .img-container .planet-img{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/68/Mars_%2816716283421%29_-_Transparent_background.png');
+}
+ul  .planet-li:nth-child(5) .img-container .planet-img{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e1/Jupiter_%28transparent%29.png');
+}
+ul  .planet-li:nth-child(6) .img-container .planet-img{
+    width: 45rem;
+    border-radius: unset;
+    background-image: url('http://assets.stickpng.com/images/580b585b2edbce24c47b270d.png');
+    animation-play-state: paused;
+}
+ul  .planet-li:nth-child(6) .img-container .planet-img:hover{
+    animation:unset;
+    opacity: 1;
+}
+ul  .planet-li:nth-child(7) .img-container .planet-img{
+    background-image: url('https://nineplanets.org/wp-content/uploads/2020/03/uranus.png');
+}
+ul  .planet-li:nth-child(8) .img-container .planet-img{
+    background-image: url('https://www.seekpng.com/png/full/2-26520_neptune-neptune-transparent-background.png');
+}
+@keyframes planet-anim {
+    100% {
+        transform: rotate(360deg);
+    
+}
+
+}
+/* @keyframes planet-img-anim {
+    100%{
+        background-image: url('https://www.pngall.com/wp-content/uploads/2016/06/Earth-Free-Download-PNG.png');
+    }
+} */
+
+.planet-img:hover+.parent-img {
+    border-radius: 0;
+    width: 100vw;
+    left: 0;
+    height: 100vh;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    /* z-index: 2; */
+}
+
+.planet-img:hover {
+    opacity: 0;
+    border-radius: 50%;
+    animation: planet-scale 500ms ease-out forwards, planet-hover-anim 20s cubic-bezier(0.22, 0.21, 0.6, 0.65) infinite;
+}
+
+@keyframes planet-scale {
+    100% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+}
+
+@keyframes planet-hover-anim {
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+.card {
     color: white;
     height: 80%;
-    max-width: 80%;
+    width: 80%;
     border-radius: 0.5rem;
     overflow: hidden;
     position: relative;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2) ;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
     background: transparent;
     backdrop-filter: blur(10px);
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.205);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.card:hover{
-    backdrop-filter: blur(11px);
 
+.card:hover {
+    animation-name: card-size-anim;
+    animation-duration: 400ms;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    z-index: 4;
 }
 
-.card-content{
+@keyframes card-size-anim {
+    0% {
+        position: relative;
+        transform: translateX(0);
+    }
+    100% {
+        width: 50rem;
+        height: 40rem;
+        transform: translateX(-4rem);
+    }
+}
+ul  .planet-li:nth-of-type(2n) .card-container .card:hover{
+    animation-name: card-size-2n-anim;
+    animation-duration: 400ms;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+@keyframes card-size-2n-anim {
+    0% {
+        position: relative;
+        transform: translateX(0);
+    }
+    100% {
+        width: 50rem;
+        height: 40rem;
+        transform: translateX(4rem);
+    }
+}
+.card-content {
     --padding: 1.5rem;
-    padding:var(--padding);
-
-}
-.card-content > * :not(.card-head){
-    opacity: 0;
-    transition: opacity 500ms linear;
-}
-.card:hover .card-content > *{
-    opacity: 1;
+    padding: var(--padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.card-head{
+.card-head {
     position: relative;
-    width: max-content;
+    width: 50%;
+    text-align: center;
+    font-size: 2.5em;
+    display: flex;
+    align-items: center;
 }
-.card-head::after{
+
+.svg-head {
+    display: none;
+}
+
+.card:hover .card-head {
+    width: 60%;
+}
+
+.card:hover .card-head .svg-head {
+    display: unset;
+}
+
+.card-head::after {
     content: "";
     position: absolute;
     height: 3px;
     width: calc(120% +var(--padding));
     background: mediumspringgreen;
-    left: calc(var(--padding )*-1);
+    left: calc(var(--padding) * -1);
     bottom: 0;
-    transform: scaleX(1);
-    transition: transform 500ms ease;
+}
+
+.card:hover .card-head::after {
+    transform: scale(0);
+    animation: line-anim 300ms forwards ease-out 300ms;
     transform-origin: left;
 }
-/* .card:hover .card-head::after{
-    transform: scaleX(1);
-} */
 
-/* .card:hover .card-content{
-    transform: translateY(0);
-} */
-.card-body{
+@keyframes line-anim {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.card-body {
     margin: 20px 10px;
     color: rgb(255 255 255 /0.85);
+    font-size: 1.1em;
 }
-.button{
+
+.card-body::after {
+    display: none;
+    content: "Earth's atmosphere consists mostly of nitrogen and oxygen. More solar energy is received by tropical regions than polar regions and is redistributed by atmospheric and ocean circulation. Greenhouse gases also play an important role in regulating the surface temperature. A region's climate is not only determined by latitude, but also by elevation and proximity to moderating oceans, among other factors. Severe weather, such as tropical cyclones, thunderstorms, and heatwaves, occurs in most areas and greatly impacts life.Earth's gravity interacts with other objects in space, especially the Moon, which is Earth's only natural satellite. Earth orbits around the Sun in about 365.25 days. Earth's axis of rotation is tilted with respect to its orbital plane, producing seasons on Earth. The gravitational interaction between Earth and the Moon causes tides, stabilizes Earth's orientation on its axis, and gradually slows its rotation. Earth is the densest planet in the Solar System and the largest and most massive of the four rocky planets.";
+}
+
+.card:hover .card-body {
+    visibility: hidden;
+    animation: card-body-anim 400ms ease-out 200ms forwards;
+    font-size: 1em;
+}
+
+.card:hover .card-body::after {
+    display: unset;
+}
+
+@keyframes card-body-anim {
+    0% {
+        visibility: hidden;
+        transform: translateY(50px);
+        color: transparent;
+    }
+    100% {
+        color: white;
+        visibility: visible;
+        transform: scale(1) translateY(0px);
+    }
+}
+
+.button {
     cursor: pointer;
     display: inline-block;
     text-decoration: none;
@@ -465,7 +706,37 @@ body{
     background: mediumspringgreen;
     padding: 0.5em 1.25em;
     border-radius: 0.25em;
+    margin-top: 1.5em;
+    width: max-content;
+    display: flex;
+    align-items: center;
 }
-.button:hover,.button:focus{
+
+.button:hover,
+.button:focus {
     background: whitesmoke;
+}
+
+.rarr {
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    visibility: hidden;
+    display: none;
+}
+
+.card:hover .rarr {
+    display: unset;
+    animation: rarr-anim 300ms ease-out forwards 500ms;
+}
+
+@keyframes rarr-anim {
+    0% {
+        visibility: visible;
+        transform: translateX(-0.3em);
+    }
+    100% {
+        visibility: visible;
+        transform: translateX(0.3em);
+    }
 }
